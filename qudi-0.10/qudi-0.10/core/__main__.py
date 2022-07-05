@@ -140,9 +140,10 @@ except:
 # improve stability.
 # (see garbage_collector in the doc for more information)
 from .garbage_collector import GarbageCollector
-gc = GarbageCollector(interval=1.0, debug=False)
-
-
+########################################################################################################################################
+#gc = GarbageCollector(interval=1.0, debug=False)
+gc = GarbageCollector(interval=1, debug=False)
+########################################################################################################################################
 # define a watchdog for our application
 from .parentpoller import ParentPollerWindows, ParentPollerUnix
 

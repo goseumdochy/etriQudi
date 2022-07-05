@@ -27,8 +27,8 @@ class GarbageCollector(QObject):
     - Modified: pyqtgraph
     - Modified: qudi
     """
-
-    def __init__(self, interval=1.0, debug=False):
+    #def __init__(self, interval=1.0, debug=False):
+    def __init__(self, interval=1, debug=False):
         """
         Initializes garbage collector
 
